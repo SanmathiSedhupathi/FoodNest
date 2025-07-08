@@ -2,7 +2,7 @@
 
 # 🍽️ RecipeNest
 
-**RecipeNest** is a full-stack recipe sharing web application built with the **MERN stack** (MongoDB, Express.js, React.js, and Node.js). It allows users to create, explore, and share culinary recipes with ingredients, instructions, and images. The app is designed to be simple, intuitive, and responsive for all food lovers.
+**RecipeNest** is a full-stack recipe sharing frontend web application built with the  HTML, CSS and Bootstrap. It allows users to create, explore, and share culinary recipes with ingredients, instructions, and images. The app is designed to be simple, intuitive, and responsive for all food lovers.
 
 ---
 
@@ -12,7 +12,6 @@
 - 📸 Upload images for recipes
 - 🔍 Search and filter recipes by title or ingredients
 - 📝 View complete recipe instructions and ingredients
-- 💾 Store recipes in MongoDB
 - 📱 Fully responsive design using **Bootstrap 5**
 
 ---
@@ -23,8 +22,7 @@
 |-------------|---------------------|
 | **Frontend**  | React.js, Bootstrap 5, CSS |
 | **Backend**   | Node.js, Express.js       |
-| **Database**  | MongoDB Atlas             |
-| **Tools**     | Axios, dotenv, UUID, Multer (optional for file uploads)
+
 
 ---
 
@@ -59,22 +57,7 @@ git clone https://github.com/SanmathiSedhupathi/RecipeNest.git
 cd RecipeNest
 ```
 
-### 🔧 2. Backend Setup
-```bash
-cd server
-npm install
-```
-Create a .env file in the server directory:
 
-```bash
-MONGODB_URI=your_mongodb_connection_string
-PORT=5000
-```
-Run the backend server:
-
-```bash
-npm run dev
-``` 
 
 ### 💻 3. Frontend Setup
 
